@@ -4,6 +4,27 @@ StateButton is an android library that the button compornet has a boolean value.
 ## Demo
 ![Demo](./demo.gif)
 
+## Gradle
+### Repository
+Add this to your root `build.gradle` file.
+```gradle
+allprojects {
+    repositories {
+         ...
+         maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+### Dependency
+Add this to your app `build.gradle` file.
+```gradle
+dependencies {
+    ...
+    compile 'com.github.yuzumone:StateButton:0.1.0'
+}
+```
+
 ## Usage
 ### XML
 ```xml
