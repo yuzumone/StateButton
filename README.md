@@ -21,7 +21,7 @@ Add this to your app `build.gradle` file.
 ```gradle
 dependencies {
     ...
-    compile 'com.github.yuzumone:StateButton:0.1.0'
+    compile 'com.github.yuzumone:StateButton:0.1.1'
 }
 ```
 
