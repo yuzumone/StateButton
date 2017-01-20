@@ -80,18 +80,22 @@ public class StateButton extends TextView {
 
     public void setTrueText(String trueText) {
         this.trueText = trueText;
+        if (isChecked) this.setText(trueText);
     }
 
     public void setTrueText(@StringRes int resId) {
         this.trueText = context.getString(resId);
+        if (isChecked) this.setText(trueText);
     }
 
     public void setFalseText(String falseText) {
         this.falseText = falseText;
+        if (!isChecked) this.setText(falseText);
     }
 
     public void setFalseText(@StringRes int resId) {
         this.falseText = context.getString(resId);
+        if (!isChecked) this.setText(falseText);
     }
 
     @Override
