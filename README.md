@@ -68,16 +68,16 @@ To set text of the button you use the setTrueText or setFalseText functionality 
 
 ### XML
 ```xml
-app:trueString="True"
+app:trueText="True"
 or
-app:trueStringRes="@string/true_string"
+app:trueTextRes="@string/true_string"
 ```
 
 ### Java
 ```java
-stateButton.setTrueString("True");
+stateButton.setTrueText("True");
 or
-stateButton.setTrueStringRes();
+stateButton.setTrueText(R.string.true_string);
 ```
 
 ## OnStateButtonListener
