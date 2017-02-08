@@ -50,15 +50,7 @@ public class StateButton extends TextView {
         Boolean state = array.getBoolean(R.styleable.StateButton_state, false);
 
         trueText = array.getString(R.styleable.StateButton_trueText);
-        int trueStringRes = array.getResourceId(R.styleable.StateButton_trueTextRes, 0);
-        if (trueStringRes != 0) {
-            trueText = context.getString(trueStringRes);
-        }
         falseText = array.getString(R.styleable.StateButton_falseText);
-        int falseStringRes = array.getResourceId(R.styleable.StateButton_falseTextRes, 0);
-        if (falseStringRes != 0) {
-            falseText = context.getString(falseStringRes);
-        }
 
         setState(state);
         array.recycle();

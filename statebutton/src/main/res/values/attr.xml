@@ -3,8 +3,6 @@
     <declare-styleable name="StateButton">
         <attr name="state" format="boolean"/>
         <attr name="trueText" format="string"/>
-        <attr name="trueTextRes" format="integer"/>
         <attr name="falseText" format="string"/>
-        <attr name="falseTextRes" format="integer"/>
     </declare-styleable>
 </resources>

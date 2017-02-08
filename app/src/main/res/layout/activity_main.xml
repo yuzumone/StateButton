@@ -16,7 +16,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:trueTextRes="@string/true_string"
-        app:falseTextRes="@string/false_string"
+        app:trueText="@string/true_string"
+        app:falseText="@string/false_string"
         />
 </RelativeLayout>
