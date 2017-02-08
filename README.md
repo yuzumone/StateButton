@@ -21,7 +21,7 @@ Add this to your app `build.gradle` file.
 ```gradle
 dependencies {
     ...
-    compile 'com.github.yuzumone:StateButton:0.1.1'
+    compile 'com.github.yuzumone:StateButton:0.1.2'
 }
 ```
 
@@ -70,7 +70,7 @@ To set text of the button you use the setTrueText or setFalseText functionality 
 ```xml
 app:trueText="True"
 or
-app:trueTextRes="@string/true_string"
+app:trueText="@string/true_string"
 ```
 
 ### Java
