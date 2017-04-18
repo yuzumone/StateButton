@@ -1,5 +1,5 @@
 # StateButton
-StateButton is an android library that the button compornet has a boolean value.
+StateButton is an android library that the button component has a boolean value.
 
 ## Demo
 ![Demo](./demo.gif)
@@ -40,9 +40,7 @@ dependencies {
 <net.yuzumone.statebutton.StateButton
     app:state="true"
     app:trueString="True"
-    app:falseString="Flase"
-    app:trueStringRes="@string/true_string"
-    app:falseStringRes="@string/false_string"
+    app:falseString="False"
     />
 ```
 
