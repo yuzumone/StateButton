@@ -39,8 +39,8 @@ dependencies {
 ```xml
 <net.yuzumone.statebutton.StateButton
     app:state="true"
-    app:trueString="True"
-    app:falseString="False"
+    app:trueText="True"
+    app:falseText="False"
     />
 ```
 
