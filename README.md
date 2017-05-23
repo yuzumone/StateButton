@@ -1,4 +1,7 @@
 # StateButton
+[![JitPack](https://img.shields.io/badge/jitpack-v0.1.2-brightgreen.svg)](https://jitpack.io/#yuzumone/StateButton/)
+[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+
 StateButton is an android library that the button component has a boolean value.
 
 ## Demo
@@ -39,8 +42,8 @@ dependencies {
 ```xml
 <net.yuzumone.statebutton.StateButton
     app:state="true"
-    app:trueString="True"
-    app:falseString="False"
+    app:trueText="True"
+    app:falseText="False"
     />
 ```
 
