@@ -61,7 +61,7 @@ app:state="false"
 ```java
 stateButton.setState(true);
 or
-stateButton.setState(false)
+stateButton.setState(false);
 ```
 
 ## ButtonText
